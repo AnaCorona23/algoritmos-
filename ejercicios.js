@@ -33,6 +33,16 @@ para ( var  i  =  0 ;  i  <=  9 ;  i ++ ) {
 numero = parseInt ( prompt ( "Ingresa el numero que desa saber su iteracion" ) ) ; 
 var  iteracion  =  numero ;
 var  resultado ;
+
+//ejercicio5
+var  numeros  =  5 ;
+
+para ( var  i  =  0 ;  i  <=  20 ;  i ++ ) {
+    consola . log ( numeros ) ;
+    numeros  =  numeros  +  2 ; 
+    numeros ++ ;
+    i  =  numeros ; 
+}
 var  a  =  0 ;
 var  b ;
 var  suma ;
